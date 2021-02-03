@@ -15,15 +15,15 @@ const Heading = styled.h1`
   text-transform: uppercase;
 `;
 
-export default function Home() {
+export default function Contact() {
   return (
     <>
       <Head>
-        <title>Home page</title>
+        <title>Contact page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero>
-        <Heading>Next</Heading>
+        <Heading>Contact</Heading>
       </Hero>
     </>
   );
